@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD5DB6B1FADE80700C616F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DB6A1FADE80700C616F8 /* AppDelegate.swift */; };
+		CCD5DB6D1FADE80700C616F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DB6C1FADE80700C616F8 /* ViewController.swift */; };
+		CCD5DB701FADE80700C616F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD5DB6E1FADE80700C616F8 /* Main.storyboard */; };
+		CCD5DB721FADE80700C616F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD5DB711FADE80700C616F8 /* Assets.xcassets */; };
+		CCD5DB751FADE80700C616F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD5DB731FADE80700C616F8 /* LaunchScreen.storyboard */; };
+		CCD5DB801FADE80700C616F8 /* WazItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DB7F1FADE80700C616F8 /* WazItTests.swift */; };
+		CCD5DB8B1FADE80700C616F8 /* WazItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DB8A1FADE80700C616F8 /* WazItUITests.swift */; };
+		CCD5DB9C1FAE00B400C616F8 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DB9B1FAE00B400C616F8 /* ScannerViewController.swift */; };
+		CCD699321FB0CC7700008214 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CCD699301FB0CC7700008214 /* GoogLeNetPlaces.mlmodel */; };
+		CCD699351FB0D0A100008214 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CCD699341FB0D0A000008214 /* MobileNet.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD5DB7C1FADE80700C616F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD5DB5F1FADE80700C616F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD5DB661FADE80700C616F8;
+			remoteInfo = WazIt;
+		};
+		CCD5DB871FADE80700C616F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD5DB5F1FADE80700C616F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD5DB661FADE80700C616F8;
+			remoteInfo = WazIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCD5DB671FADE80700C616F8 /* WazIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WazIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD5DB6A1FADE80700C616F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCD5DB6C1FADE80700C616F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCD5DB6F1FADE80700C616F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD5DB711FADE80700C616F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD5DB741FADE80700C616F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD5DB761FADE80700C616F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD5DB7B1FADE80700C616F8 /* WazItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WazItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD5DB7F1FADE80700C616F8 /* WazItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WazItTests.swift; sourceTree = "<group>"; };
+		CCD5DB811FADE80700C616F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD5DB861FADE80700C616F8 /* WazItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WazItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD5DB8A1FADE80700C616F8 /* WazItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WazItUITests.swift; sourceTree = "<group>"; };
+		CCD5DB8C1FADE80700C616F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD5DB9B1FAE00B400C616F8 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		CCD699301FB0CC7700008214 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		CCD699341FB0D0A000008214 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD5DB641FADE80700C616F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5DB781FADE80700C616F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5DB831FADE80700C616F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD5DB5E1FADE80700C616F8 = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB691FADE80700C616F8 /* WazIt */,
+				CCD5DB7E1FADE80700C616F8 /* WazItTests */,
+				CCD699271FB0C2EA00008214 /* MLModels */,
+				CCD5DB891FADE80700C616F8 /* WazItUITests */,
+				CCD5DB681FADE80700C616F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD5DB681FADE80700C616F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB671FADE80700C616F8 /* WazIt.app */,
+				CCD5DB7B1FADE80700C616F8 /* WazItTests.xctest */,
+				CCD5DB861FADE80700C616F8 /* WazItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD5DB691FADE80700C616F8 /* WazIt */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB6A1FADE80700C616F8 /* AppDelegate.swift */,
+				CCD5DB6C1FADE80700C616F8 /* ViewController.swift */,
+				CCD5DB9B1FAE00B400C616F8 /* ScannerViewController.swift */,
+				CCD5DB761FADE80700C616F8 /* Info.plist */,
+				CCD5DB981FADECA200C616F8 /* Resource */,
+			);
+			path = WazIt;
+			sourceTree = "<group>";
+		};
+		CCD5DB7E1FADE80700C616F8 /* WazItTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB7F1FADE80700C616F8 /* WazItTests.swift */,
+				CCD5DB811FADE80700C616F8 /* Info.plist */,
+			);
+			path = WazItTests;
+			sourceTree = "<group>";
+		};
+		CCD5DB891FADE80700C616F8 /* WazItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB8A1FADE80700C616F8 /* WazItUITests.swift */,
+				CCD5DB8C1FADE80700C616F8 /* Info.plist */,
+			);
+			path = WazItUITests;
+			sourceTree = "<group>";
+		};
+		CCD5DB981FADECA200C616F8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB711FADE80700C616F8 /* Assets.xcassets */,
+				CCD5DB6E1FADE80700C616F8 /* Main.storyboard */,
+				CCD5DB731FADE80700C616F8 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CCD699271FB0C2EA00008214 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCD699341FB0D0A000008214 /* MobileNet.mlmodel */,
+				CCD699301FB0CC7700008214 /* GoogLeNetPlaces.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD5DB661FADE80700C616F8 /* WazIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD5DB8F1FADE80700C616F8 /* Build configuration list for PBXNativeTarget "WazIt" */;
+			buildPhases = (
+				CCD5DB631FADE80700C616F8 /* Sources */,
+				CCD5DB641FADE80700C616F8 /* Frameworks */,
+				CCD5DB651FADE80700C616F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WazIt;
+			productName = WazIt;
+			productReference = CCD5DB671FADE80700C616F8 /* WazIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD5DB7A1FADE80700C616F8 /* WazItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD5DB921FADE80700C616F8 /* Build configuration list for PBXNativeTarget "WazItTests" */;
+			buildPhases = (
+				CCD5DB771FADE80700C616F8 /* Sources */,
+				CCD5DB781FADE80700C616F8 /* Frameworks */,
+				CCD5DB791FADE80700C616F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD5DB7D1FADE80700C616F8 /* PBXTargetDependency */,
+			);
+			name = WazItTests;
+			productName = WazItTests;
+			productReference = CCD5DB7B1FADE80700C616F8 /* WazItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD5DB851FADE80700C616F8 /* WazItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD5DB951FADE80700C616F8 /* Build configuration list for PBXNativeTarget "WazItUITests" */;
+			buildPhases = (
+				CCD5DB821FADE80700C616F8 /* Sources */,
+				CCD5DB831FADE80700C616F8 /* Frameworks */,
+				CCD5DB841FADE80700C616F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD5DB881FADE80700C616F8 /* PBXTargetDependency */,
+			);
+			name = WazItUITests;
+			productName = WazItUITests;
+			productReference = CCD5DB861FADE80700C616F8 /* WazItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD5DB5F1FADE80700C616F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LongTa;
+				TargetAttributes = {
+					CCD5DB661FADE80700C616F8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CCD5DB7A1FADE80700C616F8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCD5DB661FADE80700C616F8;
+					};
+					CCD5DB851FADE80700C616F8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCD5DB661FADE80700C616F8;
+					};
+				};
+			};
+			buildConfigurationList = CCD5DB621FADE80700C616F8 /* Build configuration list for PBXProject "WazIt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD5DB5E1FADE80700C616F8;
+			productRefGroup = CCD5DB681FADE80700C616F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD5DB661FADE80700C616F8 /* WazIt */,
+				CCD5DB7A1FADE80700C616F8 /* WazItTests */,
+				CCD5DB851FADE80700C616F8 /* WazItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD5DB651FADE80700C616F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD5DB751FADE80700C616F8 /* LaunchScreen.storyboard in Resources */,
+				CCD5DB721FADE80700C616F8 /* Assets.xcassets in Resources */,
+				CCD5DB701FADE80700C616F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5DB791FADE80700C616F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5DB841FADE80700C616F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD5DB631FADE80700C616F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD5DB6D1FADE80700C616F8 /* ViewController.swift in Sources */,
+				CCD5DB9C1FAE00B400C616F8 /* ScannerViewController.swift in Sources */,
+				CCD699351FB0D0A100008214 /* MobileNet.mlmodel in Sources */,
+				CCD5DB6B1FADE80700C616F8 /* AppDelegate.swift in Sources */,
+				CCD699321FB0CC7700008214 /* GoogLeNetPlaces.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5DB771FADE80700C616F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD5DB801FADE80700C616F8 /* WazItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5DB821FADE80700C616F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD5DB8B1FADE80700C616F8 /* WazItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD5DB7D1FADE80700C616F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD5DB661FADE80700C616F8 /* WazIt */;
+			targetProxy = CCD5DB7C1FADE80700C616F8 /* PBXContainerItemProxy */;
+		};
+		CCD5DB881FADE80700C616F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD5DB661FADE80700C616F8 /* WazIt */;
+			targetProxy = CCD5DB871FADE80700C616F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD5DB6E1FADE80700C616F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD5DB6F1FADE80700C616F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD5DB731FADE80700C616F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD5DB741FADE80700C616F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD5DB8D1FADE80700C616F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCD5DB8E1FADE80700C616F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD5DB901FADE80700C616F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = WazIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LongTa.WazIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD5DB911FADE80700C616F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = WazIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LongTa.WazIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCD5DB931FADE80700C616F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = WazItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LongTa.WazItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WazIt.app/WazIt";
+			};
+			name = Debug;
+		};
+		CCD5DB941FADE80700C616F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = WazItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LongTa.WazItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WazIt.app/WazIt";
+			};
+			name = Release;
+		};
+		CCD5DB961FADE80700C616F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = WazItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LongTa.WazItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WazIt;
+			};
+			name = Debug;
+		};
+		CCD5DB971FADE80700C616F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL8ZANT567;
+				INFOPLIST_FILE = WazItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LongTa.WazItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WazIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD5DB621FADE80700C616F8 /* Build configuration list for PBXProject "WazIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD5DB8D1FADE80700C616F8 /* Debug */,
+				CCD5DB8E1FADE80700C616F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD5DB8F1FADE80700C616F8 /* Build configuration list for PBXNativeTarget "WazIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD5DB901FADE80700C616F8 /* Debug */,
+				CCD5DB911FADE80700C616F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD5DB921FADE80700C616F8 /* Build configuration list for PBXNativeTarget "WazItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD5DB931FADE80700C616F8 /* Debug */,
+				CCD5DB941FADE80700C616F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD5DB951FADE80700C616F8 /* Build configuration list for PBXNativeTarget "WazItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD5DB961FADE80700C616F8 /* Debug */,
+				CCD5DB971FADE80700C616F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD5DB5F1FADE80700C616F8 /* Project object */;
+}
